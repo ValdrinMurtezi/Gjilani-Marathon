@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 // import Info from "./Info";
 import "../index.scss";
 // import GoToTop from "./GoToTop";
-import { FaLocationDot } from "react-icons/fa6";
+// import { FaLocationDot } from "react-icons/fa6";
 
 function Main() {
   return (
