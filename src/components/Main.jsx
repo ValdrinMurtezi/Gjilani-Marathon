@@ -2,6 +2,11 @@ import React from "react";
 import Navbar from "./Navbar";
 // import Info from "./Info";
 import "../index.scss";
+import { BsFillPeopleFill } from "react-icons/bs";
+import { FaRegMoneyBillAlt } from "react-icons/fa";
+import { GiPodium } from "react-icons/gi";
+import { FaBriefcaseMedical } from "react-icons/fa6";
+
 // import GoToTop from "./GoToTop";
 // import { FaLocationDot } from "react-icons/fa6";
 
@@ -17,9 +22,20 @@ function Main() {
               MARATONA E GJILANIT 2024
             </h1>
 
-            <p class="text-[1.5rem] italic block xm:inline font-extrabold sm:text-[2rem] md:text-[2.5rem] px-0 xm:px-[3rem] text-[#1d1c1c] bg-[#ffffff] rounded-[10px] xl:text-[3rem] text-center  font-montserrat leading-[2.5rem] md:leading-[4.5rem]">
-              SFIDONI LIMITET TUAJA
-            </p>
+            <div className="mt-[2rem] flex flex-col w-full items-center justify-center">
+              <p class="main-p text-[1.5rem] italic block xm:inline font-extrabold py-[5px] sm:text-[2rem] md:text-[2.5rem] px-[0.5rem] xm:px-[3rem] text-[#1d1c1c] bg-[#ffffff] xl:text-[3rem] text-center  font-montserrat leading-[2rem]">
+                SFIDONI LIMITET TUAJA
+              </p>
+
+              <a
+                href="https://www.kosovopass.com/pass/482/a?fbclid=IwAR2n19KbVknXgIk5cnr0TFHqUS8S358821G71V7PbrkkCGAQnnj6j5s6Oy4"
+                target="_blank"
+                rel="noreferrer"
+                className="bg-[#36ACE2] border-[2px] border-[#fcfcfc] rounded-[15px] hover:bg-[#fcfcfc] hover:text-[#36ACE2] duration-200 text-[#fcfcfc] px-[5px] mt-[2rem] text-[28px] font-montserrat font-bold"
+              >
+                REGJISTROHU
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -68,6 +84,39 @@ function Main() {
           </div>
         </div>
       </div>
+
+      <div className="w-full mt-[4rem] flex flex-wrap justify-center gap-[5rem] py-[2.5rem] bg-[#36ACE2]">
+        <div className="flex flex-col items-center w-[10rem]">
+          <BsFillPeopleFill size="110" className="text-[#fcfcfc]" />
+
+          <span className="text-[1.2rem] text-center font-semibold font-montserrat text-[#1d1c1c]">
+            1000+ GARUES{" "}
+          </span>
+        </div>
+        <div className="flex flex-col items-center w-[13rem]">
+          <GiPodium size="110" className="text-[#fcfcfc]" />
+
+          <span className="text-[1.2rem] font-semibold font-montserrat text-[#1d1c1c]">
+            PODIUM
+          </span>
+        </div>
+        <div className="flex flex-col items-center w-[10rem]">
+          <FaRegMoneyBillAlt size="110" className="text-[#fcfcfc]" />
+
+          <span className="text-[1.2rem] font-semibold font-montserrat text-[#1d1c1c] text-center">
+            SHPERBLIME
+          </span>
+        </div>
+        <div className="flex flex-col items-center w-[10rem]">
+          <FaBriefcaseMedical size="110" className="text-[#fcfcfc]" />
+
+          <span className="text-center text-[1.2rem] font-semibold font-montserrat text-[#1d1c1c]">
+            ASISTIM MJEKSORE
+          </span>
+        </div>
+      </div>
+
+      <div className="w-full bg-[gray] py-[2rem] mt-[2rem]"></div>
 
       <div className="footer w-full py-[1.5rem]  flex items-center justify-center">
         <div className="text-center">
