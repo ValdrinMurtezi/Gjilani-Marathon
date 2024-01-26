@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-// import { HiOutlineMenuAlt3 } from "react-icons/hi";
-// import { AiOutlineClose } from "react-icons/ai";
+import { IoMdClose } from "react-icons/io";
+
 import { CiMenuFries } from "react-icons/ci";
 
 import { Link } from "react-router-dom";
@@ -53,7 +53,7 @@ function Navbar() {
                 <li className="hover:text-[#2f2f30] duration-300">Home</li>
               </Link>
 
-              <Link to={"/info"}>
+              <Link to={"/about"}>
                 <li className="hover:text-[#2f2f30] duration-300">About</li>
               </Link>
 
@@ -81,7 +81,7 @@ function Navbar() {
       <div
         className={
           menu
-            ? "w-[18rem] sm:w-[23rem] bg-[#1d1c1c] text-[#fcfcfc] md:hidden flex flex-col justify-between py-[2rem] fixed h-full z-20 top-0 left-0 pt-[2rem] duration-300"
+            ? "w-[18rem] sm:w-[23rem] bg-[#1d1c1c] text-[#fcfcfc] md:hidden flex flex-col justify-between py-[2rem] fixed h-full z-20 top-0 left-0 pt-[0.5rem] duration-300"
             : "fixed  -top-full z-10 h-full w-1/2 bottom-0 ease-in-out duration-300 left-0"
         }
       >
@@ -98,24 +98,24 @@ function Navbar() {
                   onClick={closeMenu}
                   className="block md:hidden rounded-full px-[5px]"
                 >
-                  <CiMenuFries size="30px" />
+                  <IoMdClose size="30px" />
                 </button>
               </div>
             </div>
-            <ul className="pt-[4rem] font-semibold italic text-[#fcfcfc] pl-[1rem] flex flex-col space-y-5 text-[1.3rem] xm:text-[1.5rem] tracking-[1px] font-poppins	">
+            <ul className="pt-[4rem] font-semibold italic text-[#fcfcfc] pl-[1rem] flex flex-col space-y-5 text-[1.7rem] tracking-[1px] font-poppins	">
               <Link to={"/"}>
-                <li className="hover:text-[#2f2f30] duration-300">Home</li>
+                <li className="hover:text-[#36ACE2] duration-300">Home</li>
               </Link>
 
-              <Link to={"/info"}>
-                <li className="hover:text-[#2f2f30] duration-300">About</li>
+              <Link to={"/about"}>
+                <li className="hover:text-[#36ACE2] duration-300">About</li>
               </Link>
 
               <Link to={"/eventet"}>
-                <li className="hover:text-[#2f2f30] duration-300">Events</li>
+                <li className="hover:text-[#36ACE2] duration-300">Events</li>
               </Link>
               <Link to={"/galeria"}>
-                <li className="hover:text-[#2f2f30] duration-300">Gallery</li>
+                <li className="hover:text-[#36ACE2] duration-300">Gallery</li>
               </Link>
             </ul>
           </div>
