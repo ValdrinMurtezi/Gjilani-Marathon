@@ -26,25 +26,27 @@ function About() {
         <div className="w-full flex flex-col md:flex-row items-center justify-between">
           <div className="w-full md:w-[55%] ">
             <p className="text-[1rem] w-full md:w-[90%] font-montserrat font-[400] py-[1rem] mx-auto">
-              Mirë se vini në botën emocionuese të Maratonës së Gjilanit - një
-              garë e qëndrueshmërisë, pasionit dhe triumfit! Ndërsa përgatitemi
-              për edicionin e 3-të të këtij eventi spektakolarë, që do të
-              zhvillohet më 24 prill 2024, ju ftojmë të bëheni pjesë e një dite
-              të mbushur me pasion, vendosmëri dhe emocion të paharruar.
+              Maratona e Gjilanit është ndërë organizimet më të mëdha në qytetin
+              e Gjilanit, por edhe në rajon. E mbështetur edhe nga Klubi Atletik
+              i Kosoves dhe Komuna e Gjilanit, kjo maratonë ka filluar të mbahet
+              në vitin 2022 dhe ky është edicioni i 3të i saj.
             </p>
             <p className="text-[1rem] w-full md:w-[90%] font-montserrat font-[400] py-[1rem] mx-auto">
-              Mirë se vini në botën emocionuese të Maratonës së Gjilanit - një
-              garë e qëndrueshmërisë, pasionit dhe triumfit! Ndërsa përgatitemi
-              për edicionin e 3-të të këtij eventi spektakolarë, që do të
-              zhvillohet më 24 prill 2024, ju ftojmë të bëheni pjesë e një dite
-              të mbushur me pasion, vendosmëri dhe emocion të paharruar.
+              Maratona e Gjilanit premton më shumë se një garë; është një
+              përvojë që bashkon atletë me përvojë, fillimtarë entuziastë dhe
+              çdo të kujt i pëlqen sfida. Vendosur në zemër të Gjilanit, kjo
+              maratonë zhvillohet para sfondit të peizazheve të bukura të
+              komunës sonë, duke kombinuar energjinë urbane me qetësinë e
+              natyrës.
             </p>
+
             <p className="text-[1rem] w-full md:w-[90%] font-montserrat font-[400] py-[1rem] mx-auto">
-              Mirë se vini në botën emocionuese të Maratonës së Gjilanit - një
-              garë e qëndrueshmërisë, pasionit dhe triumfit! Ndërsa përgatitemi
-              për edicionin e 3-të të këtij eventi spektakolarë, që do të
-              zhvillohet më 24 prill 2024, ju ftojmë të bëheni pjesë e një dite
-              të mbushur me pasion, vendosmëri dhe emocion të paharruar.
+              Maratona e Gjilanit nuk është vetëm një garë; është një festë e
+              bashkimit dhe diversitetit. Kjo ngjarje sjell së bashku individë
+              nga të gjitha sferat e jetës, duke kultivuar një ndjenjë
+              komuniteti dhe miqësie. Kur të kalosh vijën e fundit, thirrjet dhe
+              mbështetja e përbashkët nga vrapuesit dhe shikuesit do të
+              përforcojnë triumfin e përbashkët përballë sfidave.
             </p>
           </div>
           <div className="w-full xm:w-[75%] md:w-[32rem] bg-[gray] h-[25rem] xm:h-[30rem] xm:[clip-path:polygon(25%_0%,100%_0%,100%_100%,0%_100%)]">
@@ -54,6 +56,61 @@ function About() {
               alt=""
             />
           </div>
+        </div>
+      </div>
+
+      <div className="w-[95%] flex flex-col items-center justify-center py-[2rem] lg:w-[90%] xl:w-[1200px] mx-auto">
+        <div className="w-full flex flex-col xm:flex-row justify-between items-center gap-[1rem]">
+          <div className="w-full sm:w-[80%] xm:w-[60%] h-[250px] xm:h-[250px] md:h-[370px] [clip-path:polygon(0%_0%,100%_0%,75%_100%,0%_100%)]">
+            <img
+              src={"/imgs/47.jpg"}
+              className="w-full h-full object-cover"
+              alt=""
+            />
+          </div>
+          <div className="w-full flex flex-col items-center justify-center sm:w-[80%] xm:w-[50%] h-[250px] xm:h-[250px] md:h-[370px]">
+            <h1 className="relative w-[23rem] xm:w-[21rem] mx-auto text-[3rem] font-montserrat font-[700]  py-[0.5rem]">
+              MISIONI YNË
+              <div className="absolute right-[3.5rem] bottom-[10px] w-[10rem] h-[8px] bg-[#36ACE2]"></div>
+            </h1>
+            <p className="text-[1.6rem] font-bold italic py-[10px]">
+              Promovimi i shëndetit dhe aktivitetit fizik
+            </p>
+            <p className="text-[1.6rem] font-bold italic py-[10px]">
+              Përhapja e vetëdijes dhe kujdesit për mjedisin
+            </p>
+            <p className="text-[1.6rem] font-bold italic py-[10px]">
+              Edukimi dhe zhvillimi i talentëve lokal
+            </p>
+          </div>
+        </div>
+        <div className="w-full flex items-center justify-center py-[10px] mt-[4rem]">
+          <h1 className="relative w-[23rem] xm:w-[28.5rem] mx-auto text-[3rem] xm:text-[4rem] font-montserrat font-[700]  py-[0.5rem]">
+            PARTNERËT
+            <div className="absolute right-[3.5rem] bottom-[10px] w-[10rem] h-[10px] xm:h-[15px] bg-[#36ACE2]"></div>
+          </h1>
+        </div>
+        <div className="w-full flex flex-wrap items-center justify-center space-x-[3rem]">
+          <img
+            src={"/imgs/komuna.png"}
+            className="w-[170px] h-auto object-cover"
+            alt=""
+          />
+          <img
+            src={"/imgs/fak.jpeg"}
+            className="w-[170px] h-auto object-cover"
+            alt=""
+          />
+          <img
+            src={"/imgs/police.png"}
+            className="w-[170px] h-auto object-cover"
+            alt=""
+          />
+          <img
+            src={"/imgs/bike.png"}
+            className="w-[170px] h-auto object-cover"
+            alt=""
+          />
         </div>
       </div>
 

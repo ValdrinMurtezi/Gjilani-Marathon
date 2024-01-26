@@ -62,7 +62,7 @@ function Main() {
         </div>
       </div>
 
-      <div className="pb-[2rem] pt-[4rem] xm:pt-[6rem] mx-auto w-[95%] h-auto  lg:w-[90%] xl:w-[1200px] flex flex-col items-center justify-center ">
+      <div className="pb-[2rem] pt-[2rem] xm:pt-[6rem] mx-auto w-[95%] h-auto  lg:w-[90%] xl:w-[1200px] flex flex-col items-center justify-center ">
         <div className="w-full h-auto flex flex-col md:flex-row justify-between items-center">
           <div className="w-full">
             <h1 className="relative w-[300px] xm:w-[400px] text-left mx-auto text-[4rem] xm:text-[5.7rem] font-montserrat font-[700]  py-[0.5rem]">
