@@ -81,7 +81,7 @@ function Navbar() {
       <div
         className={
           menu
-            ? "w-[18rem] sm:w-[23rem] bg-[#f3f3f3] md:hidden flex flex-col justify-between py-[2rem] fixed h-full z-20 top-0 left-0 pt-[2rem] duration-300"
+            ? "w-[18rem] sm:w-[23rem] bg-[#1d1c1c] text-[#fcfcfc] md:hidden flex flex-col justify-between py-[2rem] fixed h-full z-20 top-0 left-0 pt-[2rem] duration-300"
             : "fixed  -top-full z-10 h-full w-1/2 bottom-0 ease-in-out duration-300 left-0"
         }
       >
@@ -90,7 +90,7 @@ function Navbar() {
             <div className="flex items-center w-full">
               <Link to={"/"}>
                 <div className="w-[12rem] ">
-                  <img src={"/imgs/logo.png"} className="w-full" alt="" />
+                  <img src={"/imgs/logo2.png"} className="w-full" alt="" />
                 </div>
               </Link>
               <div className="w-full  flex justify-end pr-[1rem]">
@@ -102,22 +102,20 @@ function Navbar() {
                 </button>
               </div>
             </div>
-            <ul className="pt-[4rem] font-semibold italic text-[#020203] pl-[1rem] flex flex-col space-y-5 text-[1.3rem] xm:text-[1.5rem] tracking-[1px] font-poppins	">
+            <ul className="pt-[4rem] font-semibold italic text-[#fcfcfc] pl-[1rem] flex flex-col space-y-5 text-[1.3rem] xm:text-[1.5rem] tracking-[1px] font-poppins	">
               <Link to={"/"}>
-                <li className="hover:text-[#2f2f30] duration-300">Kryefaqja</li>
+                <li className="hover:text-[#2f2f30] duration-300">Home</li>
               </Link>
 
               <Link to={"/info"}>
-                <li className="hover:text-[#2f2f30] duration-300">
-                  Rreth nesh
-                </li>
+                <li className="hover:text-[#2f2f30] duration-300">About</li>
               </Link>
 
               <Link to={"/eventet"}>
-                <li className="hover:text-[#2f2f30] duration-300">Eventet</li>
+                <li className="hover:text-[#2f2f30] duration-300">Events</li>
               </Link>
               <Link to={"/galeria"}>
-                <li className="hover:text-[#2f2f30] duration-300">Galeria</li>
+                <li className="hover:text-[#2f2f30] duration-300">Gallery</li>
               </Link>
             </ul>
           </div>

@@ -5,10 +5,12 @@ import "../index.scss";
 import { BsFillPeopleFill } from "react-icons/bs";
 import { FaRegMoneyBillAlt } from "react-icons/fa";
 import { GiPodium } from "react-icons/gi";
-import { FaBriefcaseMedical } from "react-icons/fa6";
+import { SiCrowdsource } from "react-icons/si";
+import { IoIosPhonePortrait } from "react-icons/io";
+import { AiOutlineMail } from "react-icons/ai";
+import { IoLocationOutline } from "react-icons/io5";
 
 // import GoToTop from "./GoToTop";
-// import { FaLocationDot } from "react-icons/fa6";
 
 function Main() {
   return (
@@ -42,7 +44,7 @@ function Main() {
       <div className="w-full h-auto xm:h-[250px] flex flex-col xm:flex-row">
         <div className=" w-full xm:w-[65%] py-[3rem] xm:py-0 h-[100%] bg-[#36ACE2] flex items-center justify-center flex-col">
           <h1 className="text-[3rem] font-bold italic text-[#1d1c1c]">
-            24/04/2024
+            14/04/2024
           </h1>
           <h1 className="text-[3rem] relative font-bold italic text-[#fcfcfc] flex items-center">
             EDICIONI
@@ -85,59 +87,112 @@ function Main() {
         </div>
       </div>
 
-      <div className="w-full mt-[4rem] flex flex-wrap justify-center gap-[5rem] py-[2.5rem] bg-[#36ACE2]">
+      <div className="main1 w-full mt-[4rem] flex flex-wrap justify-center gap-[5rem] py-[2.5rem]">
         <div className="flex flex-col items-center w-[10rem]">
-          <BsFillPeopleFill size="110" className="text-[#fcfcfc]" />
+          <BsFillPeopleFill size="110" className="text-[#36ACE2]" />
 
-          <span className="text-[1.2rem] text-center font-semibold font-montserrat text-[#1d1c1c]">
+          <span className="text-[1.2rem] text-center font-semibold font-montserrat text-[#fcfcfc]">
             1000+ GARUES{" "}
           </span>
         </div>
         <div className="flex flex-col items-center w-[13rem]">
-          <GiPodium size="110" className="text-[#fcfcfc]" />
+          <GiPodium size="110" className="text-[#36ACE2]" />
 
-          <span className="text-[1.2rem] font-semibold font-montserrat text-[#1d1c1c]">
+          <span className="text-[1.2rem] font-semibold font-montserrat text-[#fcfcfc]">
             PODIUM
           </span>
         </div>
         <div className="flex flex-col items-center w-[10rem]">
-          <FaRegMoneyBillAlt size="110" className="text-[#fcfcfc]" />
+          <FaRegMoneyBillAlt size="110" className="text-[#36ACE2]" />
 
-          <span className="text-[1.2rem] font-semibold font-montserrat text-[#1d1c1c] text-center">
-            SHPERBLIME
+          <span className="text-[1.2rem] font-semibold font-montserrat text-[#fcfcfc] text-center">
+            SHPËRBLIME
           </span>
         </div>
         <div className="flex flex-col items-center w-[10rem]">
-          <FaBriefcaseMedical size="110" className="text-[#fcfcfc]" />
+          <SiCrowdsource size="110" className="text-[#36ACE2]" />
 
-          <span className="text-center text-[1.2rem] font-semibold font-montserrat text-[#1d1c1c]">
-            ASISTIM MJEKSORE
+          <span className="text-center text-[1.2rem] font-semibold font-montserrat text-[#fcfcfc]">
+            EMOCIONE
           </span>
         </div>
       </div>
 
-      <div className="w-full bg-[gray] py-[2rem] mt-[2rem]"></div>
-
-      <div className="footer w-full py-[1.5rem]  flex items-center justify-center">
-        <div className="text-center">
-          <div className="w-[170px] mx-auto relative">
-            <img src={"/imgs/logo2.png"} className="w-full h-auto" alt="" />
+      <div className="w-full gap-[1rem] flex flex-col md:flex-row items-center justify-between py-[2rem] mt-[2rem]">
+        <div className="w-full md:w-[55%] items-center flex flex-col">
+          <h1 className="relative w-[23rem] xm:w-[30rem] mx-auto text-[3rem] xm:text-[4rem] font-montserrat font-[700]  py-[0.5rem]">
+            KATEGORITË
+            <div className="absolute right-[3.5rem] bottom-[10px] w-[10rem] h-[10px] xm:h-[15px] bg-[#36ACE2]"></div>
+          </h1>
+          <div className="w-full space-x-[3rem] py-[1.5rem] mt-[4rem] bg-[#1d1c1c] flex flex-wrap items-center justify-center md:[clip-path:polygon(0_0,100%_0%,91%_100%,0%_100%)]">
+            <h1 className="text-[2.5rem] xm:text-[4rem] font-bold text-[#36ace2]">
+              21
+              <span>KM</span>
+            </h1>
+            <h1 className="text-[2.5rem] xm:text-[4rem] font-bold text-[#36ace2]">
+              10
+              <span>KM</span>
+            </h1>
+            <h1 className="text-[2.5rem] xm:text-[4rem] font-bold text-[#36ace2]">
+              5<span>KM</span>
+            </h1>
           </div>
-          <h1 className="text-[2rem] xm:text-[3rem] font-montserrat font-[800] italic">
-            GJILANI MARATHON
+        </div>
+        <div className="w-[85%] xm:w-[30rem] md:w-[25rem] h-[450px] xm:h-[400px] md:h-[350px] object-cover bg-slate-300 mr-0 md:mr-[3rem] md:[clip-path:polygon(25%_0%,100%_0%,100%_100%,0%_100%)]">
+          <img src={"/imgs/1.jpg"} className="w-full h-full" alt="" />
+        </div>
+      </div>
+
+      <div className="w-full py-[3rem] flex flex-col items-center justify-center">
+        <h1 className="relative w-[23rem] xm:w-[30rem] mx-auto text-[3rem] xm:text-[4rem] font-montserrat font-[700]  py-[0.5rem]">
+          SPONZORËT
+          <div className="absolute right-[3.5rem] bottom-[10px] w-[10rem] h-[10px] xm:h-[15px] bg-[#36ACE2]"></div>
+        </h1>
+        <div className="w-full flex flex-col xm:flex-row flex-wrap items-center justify-center gap-[1rem]">
+          <img
+            src={"/imgs/sponsors2.jpg"}
+            className="w-[95%] xm:w-[85%] md:w-[45%] h-auto"
+            alt=""
+          />
+          <img
+            src={"/imgs/sponsors1.jpg"}
+            className="w-[95%] xm:w-[85%] md:w-[45%] h-auto"
+            alt=""
+          />
+          <img
+            src={"/imgs/sponsors.jpg"}
+            className="w-[95%] xm:w-[85%] md:w-[45%] h-auto"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div className="footer w-full py-[1.5rem] text-[#1d1c1c] flex flex-col items-center justify-center">
+        <div className="text-center w-full bg-[#36ACE2] py-[1rem]">
+          <div className="w-[200px] mx-auto relative">
+            <img src={"/imgs/logo3.png"} className="w-full h-auto" alt="" />
+          </div>
+          <h1 className="text-[2rem] xm:text-[3rem] text-[#1d1c1c] font-montserrat font-[800] italic">
+            GJILANI MARATHON 2024
           </h1>
           <div className="w-full mx-auto flex flex-col items-center justify-center py-[12px]">
-            <h1 className="text-[1.3rem] font-bold flex items-center gap-x-[8px]">
-              +383 44 552 052
+            <h1 className="text-[1.3rem] font-semibold flex items-center gap-x-[8px] text-[#fcfcfc]">
+              <IoIosPhonePortrait size={"30"} className="text-[#1d1c1c]" />
+              +383 43 860 460
             </h1>
-            <h1 className="text-[1.3rem] font-bold flex items-center gap-x-[8px]">
-              mountainbike06@hotmail.com
+            <h1 className="text-[1.3rem] font-semibold flex items-center gap-x-[8px] text-[#fcfcfc]">
+              <AiOutlineMail size={"30"} className="text-[#1d1c1c]" />
+              Gjilanimarathon@gmail.com
+            </h1>
+            <h1 className="text-[1.3rem] font-semibold flex items-center gap-x-[8px] text-[#fcfcfc]">
+              <IoLocationOutline size={"30"} className="text-[#1d1c1c]" />
+              Sheshi Agim Ramadani
             </h1>
           </div>
-          <p className="text-[1rem] xm:text-[1.3rem] mt-[0.5rem] pt-[1rem] font-semibold text-[black] border-t-2 border-[#36ACE2]">
-            © Të gjitha të drejtat e rezervuara
-          </p>
         </div>
+        <p className="text-center text-[1rem] xm:text-[1.3rem] mt-[0.5rem] pt-[1rem] font-semibold text-[#1d1c1c]">
+          © Të gjitha të drejtat e rezervuara
+        </p>
       </div>
     </>
   );
