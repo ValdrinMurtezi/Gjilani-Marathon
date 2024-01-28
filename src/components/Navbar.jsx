@@ -57,11 +57,11 @@ function Navbar() {
                 <li className="hover:text-[#2f2f30] duration-300">About</li>
               </Link>
 
-              <Link to={"/info"}>
+              <Link to={"/events"}>
                 <li className="hover:text-[#2f2f30] duration-300">Events</li>
               </Link>
 
-              <Link to={"/galeria"}>
+              <Link to={"/gallery"}>
                 <li className="hover:text-[#2f2f30] duration-300">Gallery</li>
               </Link>
               <Link to={"/galeria"}>
@@ -111,10 +111,13 @@ function Navbar() {
                 <li className="hover:text-[#36ACE2] duration-300">About</li>
               </Link>
 
-              <Link to={"/eventet"}>
+              <Link to={"/events"}>
                 <li className="hover:text-[#36ACE2] duration-300">Events</li>
               </Link>
-              <Link to={"/galeria"}>
+              <Link to={"/gallery"}>
+                <li className="hover:text-[#36ACE2] duration-300">Gallery</li>
+              </Link>
+              <Link to={"/results"}>
                 <li className="hover:text-[#36ACE2] duration-300">Gallery</li>
               </Link>
             </ul>

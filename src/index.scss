@@ -18,16 +18,34 @@
   }
 }
 
-.main1 {
+.main1,
+.gallery {
   background: linear-gradient(rgba(14, 20, 31, 0.712), rgba(7, 17, 22, 0.589)),
     url(../public/imgs/main11.jpg) center/cover no-repeat;
   background-attachment: fixed;
+}
+
+.foto-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1.5fr));
+  grid-gap: 10px;
+
+  img {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+  }
 }
 
 .about {
   background: linear-gradient(rgba(14, 20, 31, 0.651), rgba(7, 17, 22, 0.541)),
     url(../public/imgs/about.webp) center/cover no-repeat;
   background-attachment: fixed;
+}
+
+.events {
+  background: linear-gradient(rgba(14, 20, 31, 0.151), rgba(7, 17, 22, 0.192)),
+    url(../public/imgs/main2.jpg) center/cover no-repeat;
 }
 
 .about-img {

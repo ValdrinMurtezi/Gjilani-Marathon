@@ -49,7 +49,7 @@ function About() {
               përforcojnë triumfin e përbashkët përballë sfidave.
             </p>
           </div>
-          <div className="w-full xm:w-[75%] md:w-[32rem] bg-[gray] h-[25rem] xm:h-[30rem] xm:[clip-path:polygon(25%_0%,100%_0%,100%_100%,0%_100%)]">
+          <div className="w-full xm:w-[75%] md:w-[32rem] h-[25rem] xm:h-[30rem] xm:[clip-path:polygon(25%_0%,100%_0%,100%_100%,0%_100%)]">
             <img
               src={"/imgs/main2.jpg"}
               className="w-full h-full object-cover"
@@ -74,13 +74,13 @@ function About() {
               <div className="absolute right-[3.5rem] bottom-[10px] w-[10rem] h-[8px] bg-[#36ACE2]"></div>
             </h1>
             <p className="text-[1.6rem] font-bold italic py-[10px]">
-              Promovimi i shëndetit dhe aktivitetit fizik
+              - Promovimi i shëndetit dhe aktivitetit fizik
             </p>
             <p className="text-[1.6rem] font-bold italic py-[10px]">
-              Përhapja e vetëdijes dhe kujdesit për mjedisin
+              - Përhapja e vetëdijes dhe kujdesit për mjedisin
             </p>
             <p className="text-[1.6rem] font-bold italic py-[10px]">
-              Edukimi dhe zhvillimi i talentëve lokal
+              - Edukimi dhe zhvillimi i talentëve lokal
             </p>
           </div>
         </div>
@@ -102,12 +102,17 @@ function About() {
             alt=""
           />
           <img
-            src={"/imgs/police.png"}
+            src={"/imgs/federata2.png"}
             className="w-[170px] h-auto object-cover"
             alt=""
           />
           <img
-            src={"/imgs/bike.png"}
+            src={"/imgs/universiteti.png"}
+            className="w-[170px] h-auto object-cover"
+            alt=""
+          />
+          <img
+            src={"/imgs/federata.jpg"}
             className="w-[170px] h-auto object-cover"
             alt=""
           />
