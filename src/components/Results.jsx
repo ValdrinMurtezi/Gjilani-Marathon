@@ -96,10 +96,10 @@ function Results() {
               />
             </div>
           </div>
-          <h1 className="text-[2rem] xm:text-[2.5rem] pt-[5rem] font-semibold font-abel italic text-[#36ACE2]">
+          <h1 className="text-[2rem] xm:text-[2.5rem] pt-[2rem] xm:pt-[5rem] font-semibold font-abel italic text-[#36ACE2]">
             Rezultatet Gjilani Half-Marathon 2022
           </h1>
-          <div className="w-full justify-between flex flex-col md:flex-row gap-[1rem] pt-[2rem]">
+          <div className="w-full justify-between flex flex-col md:flex-row gap-[1rem] pt-[0] xm:pt-[2rem]">
             <div className="w-full md:w-[50%]">
               <h1 className="text-[1.3rem] xm:text-[1.5rem] font-medium text-[#1d1c1c] py-[10px]">
                 Kategoria 21Km - MESHKUJ

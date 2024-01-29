@@ -38,10 +38,11 @@ function Navbar() {
         }
       >
         <div className="nav w-[95%] lg:w-[90%] py-[0.3rem] xl:w-[1200px] flex items-center md:justify-center justify-between">
-          <div className="w-[12rem] block md:hidden">
-            <img src={"/imgs/logo2.png"} className="w-full h-auto" alt="" />
-          </div>
-
+          <Link to={"/"}>
+            <div className="w-[12rem] block md:hidden">
+              <img src={"/imgs/logo2.png"} className="w-full h-auto" alt="" />
+            </div>
+          </Link>
           <div className="hidden w-full md:flex items-center justify-between">
             <Link to={"/"}>
               <div className="w-[12rem] flex items-center">

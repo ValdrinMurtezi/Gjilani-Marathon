@@ -14,8 +14,8 @@ function About() {
         <div className="w-[95%] flex items-center justify-center h-auto lg:w-[90%] xl:w-[1200px] pt-[5rem]"></div>
       </div>
 
-      <div className="w-full xm:w-[85%] md:w-[47rem] py-[2rem]">
-        <div className="w-full space-x-[3rem] py-[1.5rem] mt-[4rem] bg-[#36ACE2] flex flex-wrap items-center justify-center sm:[clip-path:polygon(0_0,100%_0%,91%_100%,0%_100%)]">
+      <div className="w-full xm:w-[85%] md:w-[47rem] py-[0] xm:py-[2rem]">
+        <div className="w-full space-x-[3rem] py-[1.5rem] mt-[2rem] xm:mt-[4rem] bg-[#36ACE2] flex flex-wrap items-center justify-center sm:[clip-path:polygon(0_0,100%_0%,91%_100%,0%_100%)]">
           <h1 className="relative text-[#1d1c1c] w-full sm:w-[470px] xm:w-[525px] md:w-[650px] text-center xm:text-left mx-auto text-[3rem] xm:text-[4.5rem] md:text-[5.7rem] font-montserrat font-[700]  py-[0.5rem]">
             RRETH <span className="">Nesh</span>
             <div className="absolute right-[3.5rem] bottom-[10px] w-[10rem] h-[10px] xm:h-[15px] bg-[#fcfcfc]"></div>
@@ -28,9 +28,9 @@ function About() {
           <div className="w-full md:w-[55%] ">
             <p className="text-[1rem] w-full md:w-[90%] font-montserrat font-[400] py-[1rem] mx-auto">
               Maratona e Gjilanit është ndërë organizimet më të mëdha në qytetin
-              e Gjilanit, por edhe në rajon. E mbështetur edhe nga Klubi Atletik
-              i Kosoves dhe Komuna e Gjilanit, kjo maratonë ka filluar të mbahet
-              në vitin 2022 dhe ky është edicioni i 3të i saj.
+              e Gjilanit, por edhe në rajon. E mbështetur edhe nga Federata
+              Atletike e Kosoves dhe Komuna e Gjilanit, kjo maratonë ka filluar
+              të mbahet në vitin 2022 dhe ky është edicioni i 3të i saj.
             </p>
             <p className="text-[1rem] w-full md:w-[90%] font-montserrat font-[400] py-[1rem] mx-auto">
               Maratona e Gjilanit premton më shumë se një garë; është një
@@ -69,7 +69,7 @@ function About() {
               alt=""
             />
           </div>
-          <div className="w-full flex flex-col items-center justify-center sm:w-[80%] xm:w-[50%] h-[250px] xm:h-[250px] md:h-[370px]">
+          <div className="w-full flex flex-col items-center justify-center sm:w-[80%] xm:w-[50%] h-[350px] xm:h-[250px] md:h-[370px]">
             <h1 className="relative w-[23rem] xm:w-[21rem] mx-auto text-[3rem] font-montserrat font-[700]  py-[0.5rem]">
               MISIONI YNË
               <div className="absolute right-[3.5rem] bottom-[10px] w-[10rem] h-[8px] bg-[#36ACE2]"></div>
@@ -85,7 +85,7 @@ function About() {
             </p>
           </div>
         </div>
-        <div className="w-full flex items-center justify-center py-[10px] mt-[4rem]">
+        <div className="w-full flex items-center justify-center py-[10px] mt-[2rem] xm:mt-[4rem]">
           <h1 className="relative w-[23rem] xm:w-[28.5rem] mx-auto text-[3rem] xm:text-[4rem] font-montserrat font-[700]  py-[0.5rem]">
             PARTNERËT
             <div className="absolute right-[3.5rem] bottom-[10px] w-[10rem] h-[10px] xm:h-[15px] bg-[#36ACE2]"></div>
@@ -103,8 +103,8 @@ function About() {
             alt=""
           />
           <img
-            src={"/imgs/federata2.png"}
-            className="w-[170px] h-auto object-cover"
+            src={"/imgs/shoqata.jpg"}
+            className="w-[150px] h-auto object-cover"
             alt=""
           />
           <img
