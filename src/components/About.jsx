@@ -34,11 +34,10 @@ function About() {
             </p>
             <p className="text-[1rem] w-full md:w-[90%] font-montserrat font-[400] py-[1rem] mx-auto">
               Maratona e Gjilanit premton më shumë se një garë; është një
-              përvojë që bashkon atletë me përvojë, fillimtarë entuziastë dhe
-              çdo të kujt i pëlqen sfida. Vendosur në zemër të Gjilanit, kjo
-              maratonë zhvillohet para sfondit të peizazheve të bukura të
-              komunës sonë, duke kombinuar energjinë urbane me qetësinë e
-              natyrës.
+              përvojë që bashkon atletë me përvojë, fillimtarë entuziast dhe çdo
+              kujt i pëlqen sfida. Vendosur në zemër të Gjilanit, kjo maratonë
+              zhvillohet para sfondit të peizazheve të bukura të komunës sonë,
+              duke kombinuar energjinë urbane me qetësinë e natyrës.
             </p>
 
             <p className="text-[1rem] w-full md:w-[90%] font-montserrat font-[400] py-[1rem] mx-auto">
