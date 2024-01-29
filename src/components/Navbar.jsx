@@ -64,7 +64,7 @@ function Navbar() {
               <Link to={"/gallery"}>
                 <li className="hover:text-[#2f2f30] duration-300">Gallery</li>
               </Link>
-              <Link to={"/galeria"}>
+              <Link to={"/results"}>
                 <li className="hover:text-[#2f2f30] duration-300">Results</li>
               </Link>
             </ul>
@@ -118,7 +118,7 @@ function Navbar() {
                 <li className="hover:text-[#36ACE2] duration-300">Gallery</li>
               </Link>
               <Link to={"/results"}>
-                <li className="hover:text-[#36ACE2] duration-300">Gallery</li>
+                <li className="hover:text-[#36ACE2] duration-300">Results</li>
               </Link>
             </ul>
           </div>

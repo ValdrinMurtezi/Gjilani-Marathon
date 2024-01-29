@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import GoToTop from "./GoToTop";
+import GoToTop from "./GoToTop";
 import Navbar from "./Navbar";
 import "../index.scss";
 
@@ -44,15 +44,16 @@ function Gallery() {
     { img: "/imgs/gallery/37.jpg" },
     { img: "/imgs/gallery/38.jpg" },
     { img: "/imgs/gallery/39.jpg" },
+    { img: "/imgs/gallery/40.jpg" },
   ]);
   return (
     <>
       <div className="gallery w-full flex items-center cursor-pointer hover:text-[black] duration-200 justify-center py-[6rem] md:py-[8rem]">
         <Navbar />
-        {/* <GoToTop /> */}
-        <h1 className="text-[2.5rem] md:text-[3rem] text-center relative w-[330px] mx-auto  italic text-[white] font-montserrat font-[700] pt-[3rem]">
-          Foto të garës
-          <div className="w-[8rem] h-[4px] bg-[orangered] absolute"></div>
+        <GoToTop />
+        <h1 className="text-[3rem] xm:text-[4.5rem] text-center relative  xm:w-[330px] mx-auto  italic text-[white] font-montserrat font-[700] pt-[3rem]">
+          GALERIA
+          <div className="w-[7rem] h-[4px] bg-[#36ACE2] absolute left-[7rem] xm:left-[13.5rem]"></div>
         </h1>
       </div>
 

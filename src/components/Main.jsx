@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "./Navbar";
-// import Info from "./Info";
 import "../index.scss";
 import { BsFillPeopleFill } from "react-icons/bs";
 import { FaRegMoneyBillAlt } from "react-icons/fa";
@@ -9,15 +8,14 @@ import { SiCrowdsource } from "react-icons/si";
 import { IoIosPhonePortrait } from "react-icons/io";
 import { AiOutlineMail } from "react-icons/ai";
 import { IoLocationOutline } from "react-icons/io5";
-
-// import GoToTop from "./GoToTop";
+import GoToTop from "./GoToTop";
 
 function Main() {
   return (
     <>
       <div className="header w-full bg-[gray] min-h-[100vh] flex items-center justify-center py-[4rem] md:py-[0]">
         <Navbar />
-        {/* <GoToTop /> */}
+        <GoToTop />
         <div className="w-[95%] flex items-center justify-center h-auto lg:w-[90%] xl:w-[1200px] pt-[5rem]">
           <div className="text-[#ffffff] text-center w-[95%] md:w-[90%] pt-[3rem] md:pt-[5rem] ">
             <h1 className="text-[3rem] sm:text-[3.5rem] md:text-[5rem] xl:text-[4.5rem] text-center font-montserrat  leading-[3.3rem] sm:leading-[4rem] md:leading-[4.5rem] font-[700]">

@@ -3,13 +3,14 @@ import Navbar from "./Navbar";
 import { IoIosPhonePortrait } from "react-icons/io";
 import { AiOutlineMail } from "react-icons/ai";
 import { IoLocationOutline } from "react-icons/io5";
+import GoToTop from "./GoToTop";
 
 function About() {
   return (
     <>
       <div className="about w-full bg-[gray] min-h-[55vh] flex items-center justify-center py-[4rem] md:py-[0]">
         <Navbar />
-        {/* <GoToTop /> */}
+        <GoToTop />
         <div className="w-[95%] flex items-center justify-center h-auto lg:w-[90%] xl:w-[1200px] pt-[5rem]"></div>
       </div>
 

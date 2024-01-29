@@ -4,13 +4,14 @@ import "../index.scss";
 import { IoIosPhonePortrait } from "react-icons/io";
 import { AiOutlineMail } from "react-icons/ai";
 import { IoLocationOutline } from "react-icons/io5";
+import GoToTop from "./GoToTop";
 
 function Events() {
   return (
     <>
       <div className="events w-full bg-[gray] min-h-[100vh] flex items-center justify-center py-[4rem] md:py-[0]">
         <Navbar />
-        {/* <GoToTop /> */}
+        <GoToTop />
         {/* <div className="w-[95%] flex items-center justify-center h-auto lg:w-[90%] xl:w-[1200px] pt-[5rem]"></div> */}
       </div>
 
@@ -97,6 +98,17 @@ function Events() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="w-full py-[2rem] flex items-center justify-center">
+        <a
+          href="https://www.kosovopass.com/pass/482/a?fbclid=IwAR2n19KbVknXgIk5cnr0TFHqUS8S358821G71V7PbrkkCGAQnnj6j5s6Oy4"
+          target="_blank"
+          rel="noreferrer"
+          className="bg-[#36ACE2] border-[2px] border-[#1d1c1c] rounded-[15px] hover:bg-[#fcfcfc] hover:text-[#36ACE2] duration-200 text-[#fcfcfc] px-[5px] mt-[2rem] text-[28px] font-montserrat font-bold"
+        >
+          REGJISTROHU
+        </a>
       </div>
 
       <div className="footer w-full py-[1.5rem] text-[#1d1c1c] flex flex-col items-center justify-center">
