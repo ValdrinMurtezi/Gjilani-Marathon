@@ -78,7 +78,7 @@ function About() {
               - Promovimi i shëndetit dhe aktivitetit fizik
             </p>
             <p className="text-[1.6rem] font-bold italic py-[10px]">
-              - Përhapja e vetëdijes dhe kujdesit për mjedisin
+              - Përhapja e vetëdijes dhe kujdesit për shëndetin
             </p>
             <p className="text-[1.6rem] font-bold italic py-[10px]">
               - Edukimi dhe zhvillimi i talentëve lokal
