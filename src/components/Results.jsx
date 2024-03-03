@@ -17,7 +17,7 @@ function Results() {
 
       <div className="w-full xm:w-[85%] md:w-[47rem] py-[2rem]">
         <div className="w-full space-x-[3rem] py-[1.5rem] mt-[2rem] xm:mt-[4rem] bg-[#36ACE2] flex flex-wrap items-center justify-center sm:[clip-path:polygon(0_0,100%_0%,91%_100%,0%_100%)]">
-          <h1 className="relative text-[#1d1c1c] w-full sm:w-[470px] xm:w-[525px] md:w-[650px] text-center xm:text-left mx-auto text-[3rem] xm:text-[4.5rem] md:text-[6.5rem] font-coral font-[500]  py-[0.5rem]">
+          <h1 className="relative text-[#1d1c1c] w-full sm:w-[470px] xm:w-[525px] md:w-[650px] text-center xm:text-left mx-auto text-[3.5rem] xm:text-[4.5rem] md:text-[6.5rem] font-coral font-[500]  py-[0.5rem]">
             REZULTATET
             <div className="absolute right-[3.5rem] bottom-[10px] w-[10rem] h-[10px] xm:h-[15px] bg-[#fcfcfc]"></div>
           </h1>

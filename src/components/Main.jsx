@@ -18,7 +18,7 @@ function Main() {
         <GoToTop />
         <div className="w-[95%] flex items-center justify-center h-auto lg:w-[90%] xl:w-[1200px] pt-[5rem]">
           <div className="text-[#ffffff] text-center w-[95%] md:w-[90%] pt-[3rem] md:pt-[5rem] ">
-            <h1 className="text-[3rem] sm:text-[3.5rem] md:text-[5.5rem] xl:text-[5rem] text-center font-coral  leading-[3.3rem] sm:leading-[4rem] md:leading-[4.5rem] font-[500]">
+            <h1 className="text-[4rem] md:text-[5.5rem] xl:text-[5rem] text-center font-coral  leading-[3.5rem] md:leading-[4.5rem] font-[500]">
               MARATONA E GJILANIT 2024
             </h1>
 
