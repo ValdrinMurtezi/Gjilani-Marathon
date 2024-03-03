@@ -26,14 +26,14 @@ function Events() {
       <div className="w-[95%] mx-auto flex flex-col items-center justify-center h-auto lg:w-[90%] xl:w-[1200px] ">
         <div className="w-full flex flex-col xm:flex-row items-center justify-between gap-[20px] py-[2rem]">
           <div className="w-full xm:w-[55%]">
-            <p className="text-[1rem] w-full md:w-[90%] font-montserrat font-[400] py-[1rem] mx-auto">
+            <p className="text-[1.2rem] w-full md:w-[90%] font-nn font-[300] py-[1rem] mx-auto">
               Mirë se vini në emocionin e Maratonës së Gjilanit, një ngjarje
               spektakolare e cila do të mbahet më 14 prill! Ky event pasuron
               shpirtin sportiv të qytetit duke sjellë një gamë të gjerë
               disiplinash, nga gjysmëmaratona 21 km, vrapimi i mesëm 10 km, deri
               te vrapimi i shkurtër 5 km.
             </p>
-            <p className="text-[1rem] w-full md:w-[90%] font-montserrat font-[400] py-[1rem] mx-auto">
+            <p className="text-[1.2rem] w-full md:w-[90%] font-nn font-[300] py-[1rem] mx-auto">
               Nëse jeni një maratonas me përvojë që synon një rekord personal
               ose një fillimtar që pranon sfidën, Maratona e Gjilanit ofron
               kategori të ndryshme që përshtaten me të gjitha nivelet e
@@ -60,37 +60,37 @@ function Events() {
           <div className="w-full xm:w-[55%] flex flex-col mx-auto justify-center items-center">
             <div>
               <div>
-                <h1 className="text-[2rem] xm:text-[2.5rem] font-semibold font-abel italic text-[#36ACE2]">
+                <h1 className="text-[2rem] xm:text-[2.5rem] font-[400] font-coral italic text-[#36ACE2]">
                   Diciplinat:
                 </h1>
                 <ul>
-                  <li className="text-[1.3rem] xm:text-[1.5rem] font-medium text-[#1d1c1c]">
+                  <li className="text-[1.3rem] xm:text-[1.5rem] font-nn text-[#1d1c1c]">
                     21Km Half Marathon
                   </li>
-                  <li className="text-[1.3rem] xm:text-[1.5rem] font-medium text-[#1d1c1c]">
+                  <li className="text-[1.3rem] xm:text-[1.5rem] font-nn text-[#1d1c1c]">
                     10Km Free Run
                   </li>
-                  <li className="text-[1.3rem] xm:text-[1.5rem] font-medium text-[#1d1c1c]">
+                  <li className="text-[1.3rem] xm:text-[1.5rem] font-nn text-[#1d1c1c]">
                     5Km Free Run/Walk
                   </li>
                 </ul>
               </div>
               <div>
-                <h1 className="text-[2rem] xm:text-[2.5rem] font-semibold font-abel italic text-[#36ACE2]">
-                  Data
+                <h1 className="text-[2rem] xm:text-[2.5rem] font-coral italic text-[#36ACE2]">
+                  Data:
                 </h1>
                 <ul>
-                  <li className="text-[1.3rem] xm:text-[1.5rem] font-medium text-[#1d1c1c]">
+                  <li className="text-[1.3rem] xm:text-[1.5rem] font-nn text-[#1d1c1c]">
                     14 Mars 2024
                   </li>
                 </ul>
               </div>
               <div>
-                <h1 className="text-[2rem] xm:text-[2.5rem] font-semibold font-abel italic text-[#36ACE2]">
+                <h1 className="text-[2rem] xm:text-[2.5rem] font-coral italic text-[#36ACE2]">
                   Start/Finish:
                 </h1>
                 <ul>
-                  <li className="text-[1.3rem] xm:text-[1.5rem] font-medium text-[#1d1c1c]">
+                  <li className="text-[1.3rem] xm:text-[1.5rem] font-nn text-[#1d1c1c]">
                     Sheshi Agim Ramadani, Gjilan
                   </li>
                 </ul>
@@ -116,25 +116,25 @@ function Events() {
           <div className="w-[200px] mx-auto relative">
             <img src={"/imgs/logo3.png"} className="w-full h-auto" alt="" />
           </div>
-          <h1 className="text-[2rem] xm:text-[3rem] text-[#1d1c1c] font-montserrat font-[800] italic">
+          <h1 className="text-[2.5rem] xm:text-[3.6rem] text-[#1d1c1c] font-coral font-[500] italic">
             GJILANI MARATHON 2024
           </h1>
           <div className="w-full mx-auto flex flex-col items-center justify-center py-[12px]">
-            <h1 className="text-[1.3rem] font-semibold flex items-center gap-x-[8px] text-[#fcfcfc]">
+            <h1 className="text-[1.3rem] font-nn flex items-center gap-x-[8px] text-[#fcfcfc]">
               <IoIosPhonePortrait size={"30"} className="text-[#1d1c1c]" />
               +383 43 860 460
             </h1>
-            <h1 className="text-[1.3rem] font-semibold flex items-center gap-x-[8px] text-[#fcfcfc]">
+            <h1 className="text-[1.3rem] font-nn flex items-center gap-x-[8px] text-[#fcfcfc]">
               <AiOutlineMail size={"30"} className="text-[#1d1c1c]" />
               Gjilanimarathon@gmail.com
             </h1>
-            <h1 className="text-[1.3rem] font-semibold flex items-center gap-x-[8px] text-[#fcfcfc]">
+            <h1 className="text-[1.3rem] font-nn flex items-center gap-x-[8px] text-[#fcfcfc]">
               <IoLocationOutline size={"30"} className="text-[#1d1c1c]" />
               Sheshi Agim Ramadani
             </h1>
           </div>
         </div>
-        <p className="text-center text-[1rem] xm:text-[1.3rem] mt-[0.5rem] pt-[1rem] font-semibold text-[#1d1c1c]">
+        <p className="text-center text-[1rem] xm:text-[1.3rem] mt-[0.5rem] pt-[1rem] font-nn text-[#1d1c1c]">
           © Të gjitha të drejtat e rezervuara
         </p>
       </div>

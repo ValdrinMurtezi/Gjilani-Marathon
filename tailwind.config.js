@@ -8,6 +8,8 @@ module.exports = {
         roboto: "Roboto",
         babuas: "Bebas Neue",
         abel: "Abel",
+        coral: "Coral Reef",
+        nn: "NN Nouvelle Grotesk STD",
       },
       screens: {
         sm: "530px",

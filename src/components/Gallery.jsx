@@ -51,9 +51,9 @@ function Gallery() {
       <div className="gallery w-full flex items-center cursor-pointer hover:text-[black] duration-200 justify-center py-[6rem] md:py-[8rem]">
         <Navbar />
         <GoToTop />
-        <h1 className="text-[3rem] xm:text-[4.5rem] text-center relative  xm:w-[330px] mx-auto  italic text-[white] font-montserrat font-[700] pt-[3rem]">
+        <h1 className="text-[3.5rem] xm:text-[6rem] text-center relative xm:w-[330px] mx-auto italic text-[white] font-coral font-[500] pt-[3rem]">
           GALERIA
-          <div className="w-[7rem] h-[4px] bg-[#36ACE2] absolute left-[7rem] xm:left-[13.5rem]"></div>
+          <div className="w-[7rem] h-[10px] bg-[#36ACE2] absolute left-[7rem] xm:left-[13.5rem]"></div>
         </h1>
       </div>
 

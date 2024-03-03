@@ -18,13 +18,13 @@ function Main() {
         <GoToTop />
         <div className="w-[95%] flex items-center justify-center h-auto lg:w-[90%] xl:w-[1200px] pt-[5rem]">
           <div className="text-[#ffffff] text-center w-[95%] md:w-[90%] pt-[3rem] md:pt-[5rem] ">
-            <h1 className="text-[3rem] sm:text-[3.5rem] md:text-[5rem] xl:text-[4.5rem] text-center font-montserrat  leading-[3.3rem] sm:leading-[4rem] md:leading-[4.5rem] font-[700]">
+            <h1 className="text-[3rem] sm:text-[3.5rem] md:text-[5.5rem] xl:text-[5rem] text-center font-coral  leading-[3.3rem] sm:leading-[4rem] md:leading-[4.5rem] font-[500]">
               MARATONA E GJILANIT 2024
             </h1>
 
             <div className="mt-[2rem] flex flex-col w-full items-center justify-center">
-              <p class="main-p text-[1.5rem] italic block xm:inline font-extrabold py-[5px] sm:text-[2rem] md:text-[2.5rem] px-[0.5rem] xm:px-[3rem] text-[#1d1c1c] bg-[#ffffff] xl:text-[3rem] text-center  font-montserrat leading-[2rem]">
-                SFIDONI LIMITET TUAJA
+              <p class="main-p text-[1.5rem] italic block xm:inline font-extrabold py-[5px] sm:text-[2rem] md:text-[2.5rem] px-[0.5rem] xm:px-[3rem] text-[#1d1c1c] bg-[#ffffff] xl:text-[3rem] text-center font-nn leading-[2rem]">
+                Sweat, Smile, Succeed. Own your race
               </p>
 
               <a
@@ -44,7 +44,7 @@ function Main() {
           <h1 className="text-[3rem] font-bold italic text-[#1d1c1c]">
             14/04/2024
           </h1>
-          <h1 className="text-[3rem] relative font-bold italic text-[#fcfcfc] flex items-center">
+          <h1 className="text-[3rem] relative font-coral font-bold italic text-[#fcfcfc] flex items-center">
             EDICIONI
             <span className="text-[6rem] absolute -top-[23px] left-[13rem] text-[#1d1c1c]">
               3
@@ -63,11 +63,11 @@ function Main() {
       <div className="pb-[2rem] pt-[2rem] xm:pt-[6rem] mx-auto w-[95%] h-auto  lg:w-[90%] xl:w-[1200px] flex flex-col items-center justify-center ">
         <div className="w-full h-auto flex flex-col md:flex-row justify-between items-center">
           <div className="w-full">
-            <h1 className="relative w-[300px] xm:w-[400px] text-left mx-auto text-[4rem] xm:text-[5.7rem] font-montserrat font-[700]  py-[0.5rem]">
+            <h1 className="relative w-[300px] xm:w-[400px] text-left mx-auto text-[4.5rem] xm:text-[6.2rem] font-coral font-[500] py-[0.5rem]">
               ABOUT
-              <div className="absolute right-[3.5rem] bottom-[10px] w-[10rem] h-[10px] xm:h-[15px] bg-[#36ACE2]"></div>
+              <div className="absolute right-[7rem] bottom-[15px] w-[7rem] h-[10px] xm:h-[10px] bg-[#36ACE2]"></div>
             </h1>
-            <p className="text-[1rem] xm:text-[1.2rem] w-full md:w-[90%] font-montserrat font-[400] py-[1rem] mx-auto">
+            <p className="text-[1rem] xm:text-[1.3rem] w-full md:w-[90%] font-nn font-normal py-[1rem] mx-auto">
               Mirë se vini në botën emocionuese të Maratonës së Gjilanit - një
               garë e qëndrueshmërisë, pasionit dhe triumfit! Ndërsa përgatitemi
               për edicionin e 3-të të këtij eventi spektakolarë, që do të
@@ -118,11 +118,11 @@ function Main() {
 
       <div className="w-full gap-[1rem] flex flex-col md:flex-row items-center justify-between py-[2rem] mt-[2rem]">
         <div className="w-full md:w-[55%] items-center flex flex-col">
-          <h1 className="relative w-[23rem] xm:w-[30rem] mx-auto text-[3rem] xm:text-[4rem] font-montserrat font-[700]  py-[0.5rem]">
+          <h1 className="relative w-[23rem] xm:w-[30rem] mx-auto text-[3.5rem] xm:text-[5rem] font-coral font-[500]  py-[0.5rem]">
             KATEGORITË
             <div className="absolute right-[3.5rem] bottom-[10px] w-[10rem] h-[10px] xm:h-[15px] bg-[#36ACE2]"></div>
           </h1>
-          <div className="w-full space-x-[3rem] py-[1.5rem] mt-[4rem] bg-[#1d1c1c] flex flex-wrap items-center justify-center md:[clip-path:polygon(0_0,100%_0%,91%_100%,0%_100%)]">
+          <div className="w-full font-nn space-x-[3rem] py-[1.5rem] mt-[4rem] bg-[#1d1c1c] flex flex-wrap items-center justify-center md:[clip-path:polygon(0_0,100%_0%,91%_100%,0%_100%)]">
             <h1 className="text-[2.5rem] xm:text-[4rem] font-bold text-[#36ace2]">
               21
               <span>KM</span>
@@ -142,7 +142,7 @@ function Main() {
       </div>
 
       <div className="w-full py-[3rem] flex flex-col items-center justify-center">
-        <h1 className="relative w-[23rem] xm:w-[30rem] mx-auto text-[3rem] xm:text-[4rem] font-montserrat font-[700]  py-[0.5rem]">
+        <h1 className="relative w-[23rem] xm:w-[30rem] mx-auto text-[4rem] xm:text-[5rem] font-coral font-[500]  py-[0.5rem]">
           SPONZORËT
           <div className="absolute right-[3.5rem] bottom-[10px] w-[10rem] h-[10px] xm:h-[15px] bg-[#36ACE2]"></div>
         </h1>
@@ -170,25 +170,25 @@ function Main() {
           <div className="w-[200px] mx-auto relative">
             <img src={"/imgs/logo3.png"} className="w-full h-auto" alt="" />
           </div>
-          <h1 className="text-[2rem] xm:text-[3rem] text-[#1d1c1c] font-montserrat font-[800] italic">
+          <h1 className="text-[2.5rem] xm:text-[3.6rem] text-[#1d1c1c] font-coral font-[500] italic">
             GJILANI MARATHON 2024
           </h1>
-          <div className="w-full mx-auto flex flex-col items-center justify-center py-[12px]">
-            <h1 className="text-[1.3rem] font-semibold flex items-center gap-x-[8px] text-[#fcfcfc]">
+          <div className="w-full mx-auto font-[300] flex flex-col items-center justify-center py-[12px] font-nn">
+            <h1 className="text-[1.3rem] flex items-center gap-x-[8px] text-[#fcfcfc]">
               <IoIosPhonePortrait size={"30"} className="text-[#1d1c1c]" />
               +383 43 860 460
             </h1>
-            <h1 className="text-[1.3rem] font-semibold flex items-center gap-x-[8px] text-[#fcfcfc]">
+            <h1 className="text-[1.3rem] flex items-center gap-x-[8px] text-[#fcfcfc]">
               <AiOutlineMail size={"30"} className="text-[#1d1c1c]" />
               Gjilanimarathon@gmail.com
             </h1>
-            <h1 className="text-[1.3rem] font-semibold flex items-center gap-x-[8px] text-[#fcfcfc]">
+            <h1 className="text-[1.3rem] flex items-center gap-x-[8px] text-[#fcfcfc]">
               <IoLocationOutline size={"30"} className="text-[#1d1c1c]" />
               Sheshi Agim Ramadani
             </h1>
           </div>
         </div>
-        <p className="text-center text-[1rem] xm:text-[1.3rem] mt-[0.5rem] pt-[1rem] font-semibold text-[#1d1c1c]">
+        <p className="text-center text-[1rem] xm:text-[1.3rem] mt-[0.5rem] pt-[1rem] font-nn text-[#1d1c1c]">
           © Të gjitha të drejtat e rezervuara
         </p>
       </div>
