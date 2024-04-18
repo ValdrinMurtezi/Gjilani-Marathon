@@ -23,7 +23,7 @@ function Main() {
             </h1>
 
             <div className="mt-[2rem] flex flex-col w-full items-center justify-center">
-              <p class="main-p text-[1.5rem] italic block xm:inline font-extrabold py-[5px] sm:text-[2rem] md:text-[2.5rem] px-[0.5rem] xm:px-[3rem] text-[#1d1c1c] bg-[#ffffff] xl:text-[3rem] text-center font-nn leading-[2rem]">
+              <p class="main-p text-[1.5rem] italic block xm:inline font-extrabold py-[5px] sm:text-[2rem] md:text-[2.5rem] px-[0.5rem] xm:px-[3rem] text-[#fcfcfc] xl:text-[3rem] text-center font-nn leading-[2rem]">
                 Sweat, Smile, Succeed. Own your race
               </p>
 

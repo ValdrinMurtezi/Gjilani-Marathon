@@ -25,7 +25,80 @@ function Results() {
       </div>
 
       <div className="w-full flex items-center justify-center flex-col py-[2rem] bg-slate-200">
-        <h1 className="text-[2rem] xm:text-[2.5rem] py-[10px] font-coral italic text-[#36ACE2]">
+        <div className="w-[95%] h-auto lg:w-[90%] xl:w-[1200px] flex-col flex items-center justify-center">
+          <h1 className="text-[2rem] xm:text-[2.5rem] py-[10px] font-coral italic text-[#36ACE2]">
+            Rezultatet Gjilani Half-Marathon 2024
+          </h1>
+          <div className="w-full justify-between flex flex-col md:flex-row gap-[1rem]">
+            <div className="w-full md:w-[50%]">
+              <h1 className="text-[1.3rem] xm:text-[1.5rem] font-nn text-[#1d1c1c] py-[10px]">
+                Kategoria 21km - MESHKUJ
+              </h1>
+              <img
+                src={"/imgs/2024/21kmmeshkuj.png"}
+                className="w-full h-auto"
+                alt=""
+              />
+            </div>
+            <div className="w-full md:w-[50%]">
+              <h1 className="text-[1.3rem] xm:text-[1.5rem] font-nn text-[#1d1c1c] py-[10px]">
+                Kategoria 21km - FEMRA
+              </h1>
+              <img
+                src={"/imgs/2024/21kmfemra.png"}
+                className="w-full h-auto"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div className="w-full justify-between flex flex-col md:flex-row gap-[1rem] pt-[2rem]">
+            <div className="w-full md:w-[50%]">
+              <h1 className="text-[1.3rem] xm:text-[1.5rem] font-nn text-[#1d1c1c] py-[10px]">
+                Kategoria 5Km - MESHKUJ
+              </h1>
+              <img
+                src={"/imgs/2024/10kmmeshkuj.png"}
+                className="w-full h-auto"
+                alt=""
+              />
+            </div>
+            <div className="w-full md:w-[50%]">
+              <h1 className="text-[1.3rem] xm:text-[1.5rem] font-nn text-[#1d1c1c] py-[10px]">
+                Kategoria 5Km - FEMRA
+              </h1>
+              <img
+                src={"/imgs/2024/10kmfemra.png"}
+                className="w-full h-auto"
+                alt=""
+              />
+            </div>
+          </div>
+          <div className="w-full justify-between flex flex-col md:flex-row gap-[1rem] pt-[2rem]">
+            <div className="w-full md:w-[50%]">
+              <h1 className="text-[1.3rem] xm:text-[1.5rem] font-nn text-[#1d1c1c] py-[10px]">
+                Kategoria 5Km - MESHKUJ
+              </h1>
+              <img
+                src={"/imgs/2024/5kmmeshkuj.png"}
+                className="w-full h-auto"
+                alt=""
+              />
+            </div>
+            <div className="w-full md:w-[50%]">
+              <h1 className="text-[1.3rem] xm:text-[1.5rem] font-nn text-[#1d1c1c] py-[10px]">
+                Kategoria 5Km - FEMRA
+              </h1>
+              <img
+                src={"/imgs/2024/5kmfemra.png"}
+                className="w-full h-auto"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <h1 className="text-[2rem] xm:text-[2.5rem] pt-[5rem] py-[10px] font-coral italic text-[#36ACE2]">
           Rezultatet Gjilani Half-Marathon 2023
         </h1>
         <div className="w-[95%] h-auto lg:w-[90%] xl:w-[1200px] flex-col flex items-center justify-center">
