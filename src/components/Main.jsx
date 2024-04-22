@@ -27,14 +27,14 @@ function Main() {
                 Sweat, Smile, Succeed. Own your race
               </p>
 
-              <a
+              {/* <a
                 href="https://www.kosovopass.com/pass/482/a?fbclid=IwAR2n19KbVknXgIk5cnr0TFHqUS8S358821G71V7PbrkkCGAQnnj6j5s6Oy4"
                 target="_blank"
                 rel="noreferrer"
                 className="bg-[#36ACE2] border-[2px] border-[#fcfcfc] rounded-[15px] hover:bg-[#fcfcfc] hover:text-[#36ACE2] duration-200 text-[#fcfcfc] px-[5px] mt-[2rem] text-[28px] font-montserrat font-bold"
               >
                 REGJISTROHU
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

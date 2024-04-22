@@ -52,8 +52,7 @@ function Event2024() {
           </div>
         </div>
         <div className="w-full flex flex-col-reverse xm:flex-row mx-auto items-center justify-between gap-[20px] py-[0rem] xm:py-[2rem]">
-          <Link to={"/foto2024"}>
-            "
+          <Link to={"/foto2024"} className="w-full">
             <div className="cursor-pointer foto flex items-center justify-center relative w-full xm:w-[42rem] h-[270px] xm:h-[350px]">
               <h1 className="absolute text-[70px] text-[white] font-semibold font-coral">
                 FOTO
