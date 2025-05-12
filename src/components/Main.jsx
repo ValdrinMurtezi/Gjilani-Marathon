@@ -19,7 +19,7 @@ function Main() {
         <div className="w-[95%] flex items-center justify-center h-auto lg:w-[90%] xl:w-[1200px] pt-[5rem]">
           <div className="text-[#ffffff] text-center w-[95%] md:w-[90%] pt-[3rem] md:pt-[5rem] ">
             <h1 className="text-[4rem] md:text-[5.5rem] xl:text-[5rem] text-center font-coral  leading-[3.5rem] md:leading-[4.5rem] font-[500]">
-              MARATONA E GJILANIT 2024
+              MARATONA E GJILANIT 2025
             </h1>
 
             <div className="mt-[2rem] flex flex-col w-full items-center justify-center">
@@ -42,12 +42,12 @@ function Main() {
       <div className="w-full h-auto xm:h-[250px] flex flex-col xm:flex-row">
         <div className=" w-full xm:w-[65%] py-[3rem] xm:py-0 h-[100%] bg-[#36ACE2] flex items-center justify-center flex-col">
           <h1 className="text-[3rem] font-bold italic text-[#1d1c1c]">
-            14/04/2024
+            15/06/2025
           </h1>
           <h1 className="text-[3rem] relative font-coral font-bold italic text-[#fcfcfc] flex items-center">
             EDICIONI
             <span className="text-[6rem] absolute -top-[23px] left-[13rem] text-[#1d1c1c]">
-              3
+              4
             </span>
           </h1>
         </div>
@@ -60,7 +60,27 @@ function Main() {
         </div>
       </div>
 
-      <div className="pb-[2rem] pt-[2rem] xm:pt-[6rem] mx-auto w-[95%] h-auto  lg:w-[90%] xl:w-[1200px] flex flex-col items-center justify-center ">
+      <div className="pb-[2rem] pt-[2rem] mt-[2rem] xm:pt-[4rem] mx-auto w-[95%] gap-[20px] h-auto lg:w-[90%] xl:w-[1200px] flex flex-col xm:flex-row items-center xm:justify-between justify-center ">
+        <div className=" w-full xm:w-[30%]  xm:py-0 h-auto xm:h-[390px] ">
+          <img
+            src={"/imgs/2025c.jpg"}
+            className="w-full h-full object-cover  "
+            alt=""
+          />
+        </div>
+        <div className=" w-full xm:w-[45%] xm:py-0 h-auto xm:h-[200px] ">
+          <img src={"/imgs/2025b.jpg"} className="w-full h-full" alt="" />
+        </div>
+        <div className=" w-full xm:w-[30%] xm:py-0 h-auto xm:h-[390px] ">
+          <img
+            src={"/imgs/2025a.jpg"}
+            className="w-full h-full object-cover  "
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div className="pb-[2rem] pt-[2rem] xm:pt-[3rem] mx-auto w-[95%] h-auto  lg:w-[90%] xl:w-[1200px] flex flex-col items-center justify-center ">
         <div className="w-full h-auto flex flex-col md:flex-row justify-between items-center">
           <div className="w-full">
             <h1 className="relative w-[300px] xm:w-[400px] text-left mx-auto text-[4.5rem] xm:text-[6.2rem] font-coral font-[500] py-[0.5rem]">
@@ -70,9 +90,9 @@ function Main() {
             <p className="text-[1rem] xm:text-[1.3rem] w-full md:w-[90%] font-nn font-normal py-[1rem] mx-auto">
               Mirë se vini në botën emocionuese të Maratonës së Gjilanit - një
               garë e qëndrueshmërisë, pasionit dhe triumfit! Ndërsa përgatitemi
-              për edicionin e 3-të të këtij eventi spektakolarë, që do të
-              zhvillohet më 24 prill 2024, ju ftojmë të bëheni pjesë e një dite
-              të mbushur me pasion, vendosmëri dhe emocion të paharruar.
+              për edicionin e 4-të të këtij eventi spektakolarë, që do të
+              zhvillohet më 15 qershorë 2025, ju ftojmë të bëheni pjesë e një
+              dite të mbushur me pasion, vendosmëri dhe emocion të paharruar.
             </p>
           </div>
           <div className="about-img w-full md:w-[55rem] h-full xm:h-[400px] bg-[gray]">
