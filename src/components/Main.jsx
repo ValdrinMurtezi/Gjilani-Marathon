@@ -81,6 +81,17 @@ function Main() {
       </div>
 
       <div className="pb-[2rem] pt-[2rem] xm:pt-[3rem] mx-auto w-[95%] h-auto  lg:w-[90%] xl:w-[1200px] flex flex-col items-center justify-center ">
+        <a
+          href="https://e.tiks.app/e/p/179229b1-71ca-40eb-884e-3fcaf01120e2/"
+          target="_blank"
+          rel="noreferrer"
+          className="bg-[#b6dd27] border-[2px] border-[#3d3636] rounded-[15px] hover:bg-[#fcfcfc] hover:text-[#3d3636] duration-200 text-[#3d3636] px-[5px] xm:px-[10px] text-center text-[28px] font-montserrat font-bold w-[90%] xm:w-auto"
+        >
+          LISTA E PJESMARRËSVE
+        </a>
+      </div>
+
+      <div className="pb-[2rem] pt-[2rem] xm:pt-[3rem] mx-auto w-[95%] h-auto  lg:w-[90%] xl:w-[1200px] flex flex-col items-center justify-center ">
         <div className="w-full h-auto flex flex-col md:flex-row justify-between items-center">
           <div className="w-full">
             <h1 className="relative w-[300px] xm:w-[400px] text-left mx-auto text-[4.5rem] xm:text-[6.2rem] font-coral font-[500] py-[0.5rem]">
